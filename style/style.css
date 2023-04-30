@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Inter',sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav {
+    background: #3E8989;
+    padding: 37px 0;
+}
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+   
+}
+.menu__link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+.menu__link:hover {
+    border-bottom: 2px solid #fff;
+}
+.header__content {
+    background: url(../img/pic.jpg) no-repeat center / cover;
+    min-height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.header__title {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.header__desc {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.header__link {
+    font-family: 'Inter',sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background: #B4436C;
+    max-width: 200px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.header__link:hover {
+    background: #fff;
+    color: #B4436C;
+}
+.title {
+ margin-top: 100px;
+ margin-bottom: 50px;
+ color: #3E8989;
+ font-family: 'Inter',sans-serif;
+ font-size: 40px;
+ font-weight: 600;
+ text-align: center;
+}
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.about__img {
+    max-width: 545px;
+    width: 100%;
+}
+.about__wrapper {
+    max-width: 545px;
+    width: 100%;
+    
+}
+.about__desc {
+    margin-top: 9px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.card {
+    background: #fff;
+    max-width: 263px;
+    width: 100%;
+    height: 359px;
+    text-align: center;
+}
+.catalog__content {
+    display: flex;
+    justify-content: space-between;
+}
+.card__img2 {
+    height: 300px;
+    width: 263px;
+    margin-bottom: 32px;
+    padding: 77px 23px;
+    background: #EFEFEF;
+}
+.card__img1 {
+    height: 300px;
+    width: 263px;
+    margin-bottom: 32px;
+    padding: 2px 32px;
+    background: #EFEFEF;
+}
+.card__img3 {
+    height: 300px;
+    width: 263px;
+    margin-bottom: 32px;
+    padding: 75px 2px;
+    background: #EFEFEF;
+}
+.card__img4 {
+    height: 300px;
+    width: 263px;
+    margin-bottom: 32px;
+    padding: 19px 0;
+    background: #EFEFEF;
+}
+.card__title {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Inter',sans-serif
+    
+
+}
+.card__title:hover {
+    color: #B4436C;
+}
+
+.contacts__content {
+    display: flex;
+    justify-content: space-between;
+}
+.title__contacts {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #3E8989;
+    font-family: 'Inter',sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+}
+.contacts__desc {
+    width: 555px;
+    font-size: 20px;
+}
+.contacts__links {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 20px;
+}
+.call {
+    margin-bottom: 20px;
+    color: #000000;
+}
+.links {
+    color: #000000;
+}
+footer {
+    background: #3E8989;
+    margin-top: 104px;
+}
+.links__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuft {
+    display: flex;
+    padding: 40px 0 91px 0;
+}
+.menuft__link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.date {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.search {
+    padding: 32px 0 83px 0;
+    display: flex;
+    
+}
+.search__input {
+    height: 35px;
+    max-width: 216px;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    padding: 8px 20px 8px ;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+.search__btn {
+    background: #295E5E;
+    border-radius: 0 20px 20px 0;
+    padding: 9px 14px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
